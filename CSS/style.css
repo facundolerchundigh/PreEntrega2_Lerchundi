@@ -5,6 +5,7 @@
 }
 
 
+
 /*navbar*/
 
 .navbar {
@@ -67,7 +68,11 @@ footer {
 }
 
 
-/*Galeria*/
+/*Contacto*/
+
+.contenedor-formulario {
+    width: 100%;
+}
 
 
 
@@ -77,6 +82,15 @@ footer {
 
 .card-img-top {
     width: 100%;
+}
+
+.card {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.card:hover {
+    opacity: 1;
 }
 
 
